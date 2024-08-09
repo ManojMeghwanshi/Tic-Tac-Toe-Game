@@ -1,0 +1,154 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: #101820;
+  color: #fee715;
+  text-align: center;
+  margin: 10%;
+}
+h1 {
+  color: rgb(255, 255, 255);
+}
+.container {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  padding: 2%;
+}
+.square {
+  width: 630px;
+  height: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  align-self: center;
+}
+.box {
+  width: 160px;
+  height: 160px;
+  border: none;
+  border-radius: 6px;
+  font-size: 90px;
+  /* color: rgba(195, 11, 20, 0.93); */
+  background-color: #fee715;
+}
+#reset-btn {
+  color: #101820;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  font-size: large;
+  font-weight: bold;
+  border: none;
+  margin: 2px;
+  padding: 10px;
+}
+#alert {
+  color: #fee715;
+  background-color: #101820;
+  font-size: 50px;
+  text-align: center;
+}
+
+.alert-container {
+  height: 70vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+  margin: -20px;
+}
+.hide {
+  display: none;
+}
+
+#new-btn {
+  color: rgb(20, 33, 61);
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  font-size: large;
+  font-weight: bold;
+  border: none;
+  margin: 0px;
+  padding: 10px;
+}
+#exit1 {
+  color: rgb(20, 33, 61);
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  font-size: large;
+  font-weight: bold;
+  border: none;
+  margin: -50px;
+  padding: 10px;
+}
+#exit2 {
+  color: rgb(20, 33, 61);
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  font-size: large;
+  font-weight: bold;
+  border: none;
+  margin: 1px;
+  padding: 10px;
+  margin-top: -30px;
+}
+
+#playbtn {
+  color: rgb(20, 33, 61);
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  margin: 2px;
+  padding: 10px;
+  width: 100px;
+}
+.Playcontainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 500px;
+  align-items: center;
+  gap: 5px;
+}
+
+#home {
+  color: rgb(20, 33, 61);
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  font-size: large;
+  font-weight: bold;
+  border: none;
+  margin: 2px;
+  padding: 10px;
+  width: 100px;
+}
+.alert-container2 {
+  margin-top: 10%;
+}
+@media (max-width: 700px){
+  .Playcontainer {
+    margin-top: 300px;
+  }
+  .box {
+    width: 85px;
+    height: 90px;
+    font-size: 60px;
+  }
+  #reset-btn,
+  #exit1,
+  #exit2,
+  #new-btn {
+    font-size: 12px;
+  }
+  .alert-container,
+  .alert-container2 {
+    margin-top: 40%;
+  }
+}
+
